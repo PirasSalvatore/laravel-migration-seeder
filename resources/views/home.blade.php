@@ -27,7 +27,7 @@
                     <td>{{ $train->departure_time }}</td>
                     <td>{{ $train->arrival_time }}</td>
                     <td>{{ $train->train_code }}</td>
-                    <td>{{ $train->carriages_number }}</td>
+                    <td>{{ $train->carriages }}</td>
                     <td>{{ $train->on_time ? 'Sì' : 'No' }}</td>
                     <td>{{ $train->cancelled ? 'Sì' : 'No' }}</td>
                 </tr>
